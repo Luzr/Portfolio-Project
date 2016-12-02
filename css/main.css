@@ -1,0 +1,44 @@
+/** {
+    border: 1px solid red !important;
+}*/
+body{   
+
+    /*Added font for page*/
+    font-family: 'Lato', sans-serif;
+    color: #2D3C49;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #7D97ad;
+}
+.text-thin{
+    font-weight: 100;
+}
+.featuredWork{
+    font-size: 250%;
+}
+.appifyText {
+    font-size: 250%;
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+
+.title-super{
+    font-size: 60px
+}
+.logo-top{
+    margin-top: 10px;
+}
+
+
+
+.bottomBorder{
+    border-bottom: thick solid #7D97ad;
+}
+
+.featured-work-image {
+    max-width: 300px;
+    max-height: 200px;
+}
