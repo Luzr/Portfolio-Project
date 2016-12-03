@@ -1,43 +1,59 @@
-/** {
+/**  {
     border: 1px solid red !important;
 }*/
-body{   
+/*look at https://stackoverflow.com/questions/19430217/bootstrap-3-set-container-width-to-940px-maximum-for-desktops*/
+
+body {   
 
     /*Added font for page*/
     font-family: 'Lato', sans-serif;
-    color: #2D3C49;
-    font-weight: 300;
+    color: #2d3c49;
+    font-weight: 300;   
 }
 
-.text-muted {
-    color: #7D97ad;
+.center {
+    margin: 0 auto;
+    max-width: 1000px;
 }
-.text-thin{
+
+
+.bottomBorder {
+    border-bottom: thick solid #7d97ad;
+}
+
+
+/*Text settings*/
+.text-muted  {
+    color: #7d97ad;
+}
+
+.text-thin {
     font-weight: 100;
 }
-.featuredWork{
+
+.featuredWork {
     font-size: 250%;
 }
+
 .appifyText {
     font-size: 250%;
     text-transform: uppercase; 
     font-weight: bold;
 }
 
+.paragraph {
+    font-weight: bold;
+}
 
-.title-super{
+.title-super {
     font-size: 60px
 }
-.logo-top{
+
+.logo-top {
     margin-top: 10px;
 }
 
-
-
-.bottomBorder{
-    border-bottom: thick solid #7D97ad;
-}
-
+/*Image Settings*/
 .featured-work-image {
     max-width: 300px;
     max-height: 200px;

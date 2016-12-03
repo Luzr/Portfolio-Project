@@ -4,72 +4,70 @@
         <meta charset="utf-8">
         <title>Portfolio</title>
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" media="screen and (max-width: 989px)" href="css/med.css" />
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="js/jquery-3.1.1.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </head>
         
     <body>
-        
-        <div class="container">
-
+        <!--Uses the center class to make sure the whole page is centred-->
+        <div class="container center">
             <!--Top Text-->
-            <div class="row">
-                <div class="col-md-6 logo-top">
+            <section class="row">
+                <div class="col-md-4 col-sm-2 logo-top">
                    <img class="logo-top" src="img/logo.png" alt="Logo">
                 </div>                                       
-                <div class="col-md-6 text-right appifyText">
-                    <h1 class="title-super text-thin">Jane Doette</h1>
+                <div class="col-md-8 col-sm-10 text-right appifyText">
+                    <h1 class="title-super text-thin">Anders Riedmeann</h1>
                     <h4>Front-End Ninja</h4>
                 </div>
-            </div>
+            </section>
             <div class="row">
                 <div class="col-md-12">
                     <hr class="bottomBorder">
                 </div>
             </div>
-
+            <!--Top Text-->
+            <div class="col-md-12 paragraph">
+                <p>I'm currently working on the front end development class at Udacity and hope to move on to Javascript soon. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio odio, molestie eget pulvinar malesuada, interdum eu lorem. Quisque dapibus scelerisque pulvinar. Aliquam aliquet tortor in erat rutrum egestas. Sed pulvinar leo purus, eget sodales urna volutpat eget. Nunc dignissim suscipit dui, sed consectetur purus tincidunt eu. Suspendisse luctus at urna eu tristique. Phasellus mattis sapien sit amet risus laoreet, gravida congue nisi mattis. Aenean dignissim rhoncus leo, sed ultrices tellus accumsan et. Duis sodales varius nulla at laoreet. Etiam dapibus mattis augue ut feugiat. Maecenas ut tortor sit amet sapien tristique iaculis vitae ac sapien. Nullam tortor purus, sollicitudin at ante a, tincidunt aliquam ex. Integer pretium rutrum eleifend.</p> 
+            </div>
             <!--Middle Image-->
-            <div class="row">
+            <section class="row">
                 <div class="col-md-12">
-                    <img class="img-responsive" src="img/smoky_mountains.jpg" alt="Smoky Mountains from a Hike">
+                    <img class="img-responsive" src="img/smoky_mountains_large.jpg" alt="Smoky Mountains from a Hike">
                 </div>
-               <div class="col-md-12">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio odio, molestie eget pulvinar malesuada, interdum eu lorem. Quisque dapibus scelerisque pulvinar. Aliquam aliquet tortor in erat rutrum egestas. Sed pulvinar leo purus, eget sodales urna volutpat eget. Nunc dignissim suscipit dui, sed consectetur purus tincidunt eu. Suspendisse luctus at urna eu tristique. Phasellus mattis sapien sit amet risus laoreet, gravida congue nisi mattis. Aenean dignissim rhoncus leo, sed ultrices tellus accumsan et. Duis sodales varius nulla at laoreet. Etiam dapibus mattis augue ut feugiat. Maecenas ut tortor sit amet sapien tristique iaculis vitae ac sapien. Nullam tortor purus, sollicitudin at ante a, tincidunt aliquam ex. Integer pretium rutrum eleifend.</p> 
-               </div>
-            </div>
-            <div class="row">
+            </section>
+            <section class="row">
                 <div class="col-md-12">
-                    <h2 class="text-muted featuredWork">Featured Work</h2>
+                    <h2 class="text-muted text-md-center featuredWork">Featured Work</h2>
                 </div>
-            </div>
-
+            </section>
             <!--Bottom Images-->
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <img class="featured-work-image img-responsive" src="img/pancakes.jpg" alt="Pancakes!">
-                    <h3 class="appifyText">Appify</h3>
+            <div class="row text-center bottom-images">
+                <section class="col-md-4 col-sm-12" id="pancakes">
+                    <img class="featured-work-image" src="img/pancakes.jpg" alt="Pancakes!">
+                    <h3 class="appifyText">Pancakes</h3>
                     <p>Link here</p>
-                </div>
-                <div class="col-md-4">
-                    <img class="featured-work-image img-responsive" src="img/zion_park.jpg" alt="Great view of Zion National Park">
-                    <h3 class="appifyText">Sunflower</h3>
+                </section>
+                <section class="col-md-4 col-sm-12" id="Zion">
+                    <img class="featured-work-image" src="img/zion_park.jpg" alt="Great view of Zion National Park">
+                    <h3 class="appifyText">Zion Park</h3>
                     <p>Link here</p>
-                </div>
-                <div class="col-md-4">
-                    <img class="featured-work-image img-responsive" src="img/android_marshmallow.jpg" alt="Some guy trying to take a marshmalow away from the Andorid">
-                    <h3 class="appifyText">Bokeah</h3>
+                </section>
+                <section class="col-md-4 col-sm-12" id="marshmalow">
+                    <img class="featured-work-image" src="img/android_marshmallow.jpg" alt="Some guy trying to take a marshmalow away from the Andorid">
+                    <h3 class="appifyText">Marshmalow</h3>
                     <p>Link here</p>
-                </div>
+                </section>
             </div>
         </div>
-
-
-
     </body>
 </html>
 
 <!--todo-->
 <!--add alts to images-->
+<!--why is the font not changing? eg. bold isnt bolding and the thin isnt thin-->
