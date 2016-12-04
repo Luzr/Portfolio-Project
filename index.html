@@ -4,10 +4,11 @@
         <meta charset="utf-8">
         <title>Portfolio</title>
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" media="screen and (max-width: 989px)" href="css/med.css" />
         <link rel="stylesheet" href="css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/xs.css" />
+        <link rel="stylesheet" media="screen and (min-width: 767px) and (max-width: 989px)" href="css/sm.css" />
 
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="js/jquery-3.1.1.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -18,10 +19,10 @@
         <div class="container center">
             <!--Top Text-->
             <section class="row">
-                <div class="col-md-4 col-sm-2 logo-top">
-                   <img class="logo-top" src="img/logo.png" alt="Logo">
-                </div>                                       
-                <div class="col-md-8 col-sm-10 text-right appifyText">
+                <div class="col-md-4 col-sm-2 col-xs-2 logo-top">
+                 <span class="logo-top fontawesome-coffee"></span>
+                </div>                                          
+                <div class="col-md-8 col-sm-10 col-xs-10 text-right title">
                     <h1 class="title-super text-thin">Anders Riedmeann</h1>
                     <h4>Front-End Ninja</h4>
                 </div>
@@ -48,18 +49,18 @@
             </section>
             <!--Bottom Images-->
             <div class="row text-center bottom-images">
-                <section class="col-md-4 col-sm-12" id="pancakes">
-                    <img class="featured-work-image" src="img/pancakes.jpg" alt="Pancakes!">
+                <section class="col-md-4 col-sm-4" id="pancakes">
+                    <img class="featured-work-image" src="img/pancakes.jpg" srcset="img/pancakes_xs.jpg 990w" alt="Pancakes!">
                     <h3 class="appifyText">Pancakes</h3>
                     <p>Link here</p>
                 </section>
-                <section class="col-md-4 col-sm-12" id="Zion">
-                    <img class="featured-work-image" src="img/zion_park.jpg" alt="Great view of Zion National Park">
+                <section class="col-md-4 col-sm-4" id="Zion">
+                    <img class="featured-work-image" src="img/zion_park.jpg" srcset="img/zion_park_xs.jpg 990w" alt="Great view of Zion National Park">
                     <h3 class="appifyText">Zion Park</h3>
                     <p>Link here</p>
                 </section>
-                <section class="col-md-4 col-sm-12" id="marshmalow">
-                    <img class="featured-work-image" src="img/android_marshmallow.jpg" alt="Some guy trying to take a marshmalow away from the Andorid">
+                <section class="col-md-4 col-sm-4" id="marshmalow">
+                    <img class="featured-work-image" src="img/android_marshmallow.jpg"srcset="img/android_marshmallow_xs.jpg 990w" alt="Some guy trying to take a marshmalow away from the Andorid">
                     <h3 class="appifyText">Marshmalow</h3>
                     <p>Link here</p>
                 </section>

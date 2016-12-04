@@ -1,0 +1,25 @@
+/**  {
+    border: 1px solid red !important;
+}*/
+
+/*.col-sm-$ Small Devices Tablets 768px and Up*/
+
+.title{
+    text-transform: uppercase; 
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.title-super {
+    font-size: 45px
+}
+
+.logo-top {
+    font-size: 250%;
+}
+
+
+/*Image Settings*/
+.featured-work-image {
+    max-width: 220px;
+}

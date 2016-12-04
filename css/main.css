@@ -3,6 +3,15 @@
 }*/
 /*look at https://stackoverflow.com/questions/19430217/bootstrap-3-set-container-width-to-940px-maximum-for-desktops*/
 
+
+/*Add Icon Fonts*/
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
 body {   
 
     /*Added font for page*/
@@ -16,13 +25,13 @@ body {
     max-width: 1000px;
 }
 
-
 .bottomBorder {
     border-bottom: thick solid #7d97ad;
 }
 
 
 /*Text settings*/
+
 .text-muted  {
     color: #7d97ad;
 }
@@ -32,17 +41,21 @@ body {
 }
 
 .featuredWork {
-    font-size: 250%;
+    font-size: 175%;
 }
 
 .appifyText {
-    font-size: 250%;
-    text-transform: uppercase; 
-    font-weight: bold;
+    font-size: 125%;
 }
 
 .paragraph {
     font-weight: bold;
+}
+
+.title{
+    text-transform: uppercase; 
+    font-weight: bold;
+    font-size: 200%;
 }
 
 .title-super {
@@ -50,7 +63,7 @@ body {
 }
 
 .logo-top {
-    margin-top: 10px;
+    font-size: 250%;
 }
 
 /*Image Settings*/

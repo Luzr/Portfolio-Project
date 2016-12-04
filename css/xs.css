@@ -1,0 +1,32 @@
+/**  {
+    border: 1px solid blue !important;
+}*/
+/*look at https://stackoverflow.com/questions/19430217/bootstrap-3-set-container-width-to-940px-maximum-for-desktops*/
+
+/*.col-xs-$ Extra Small Phones Less than 768px*/
+
+/*Text Settings*/
+.title{
+    text-transform: uppercase; 
+    font-weight: bold;
+    font-size: 75%;
+}
+
+.title-super {
+    font-size: 22px
+}
+
+.logo-top {
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 175%;
+}
+
+.featuredWork{
+    text-align: center;
+}
+
+/*Image Settings*/
+.featured-work-image {
+    width: 350px;
+}
